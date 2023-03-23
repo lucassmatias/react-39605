@@ -1,0 +1,25 @@
+.containerRow{
+    padding-top: 1rem;
+    gap: 1rem;
+}
+.flex{
+    display: flex;
+}
+.itemDetailContainer{
+    padding-top: 5rem;
+    justify-content: center;
+}
+.containerRow span{
+    font-style: italic;
+    font-size: 20px;
+}
+.productTitle{
+    font-size: xx-large;
+    font-weight: 500;
+}
+.productItem{
+    font-size: 20px;
+}
+.detailImg{
+    max-height: 30rem;
+}

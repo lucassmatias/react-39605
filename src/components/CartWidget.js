@@ -3,8 +3,7 @@ import { BiCart } from "react-icons/bi";
 import "./CartWidget-module.css";
 
 function Carrito(){   
-    return(
-    
+    return( 
     <div>
         <BiCart className="carrito"/>
         1

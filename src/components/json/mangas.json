@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Tokyo Revengers VOL. 1 IVREA",
+        "description": "Manga Shonen",
+        "category":"shonen",
+        "price": "2000",
+        "quantity":"10",
+        "pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/44f573007c3922091397a3b314f78cc53e4b598f78869ad5203b9834c6be3b6791662.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Tokyo Ghoul VOL. 1 IVREA",
+        "description": "Manga Seinen",
+        "category":"seinen",
+        "price": "2000",
+        "quantity":"3",
+        "pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/0dc3091459f7becbd0be09d5b166aa38ba2cbc8c7b4dd48cce1885e48cd5144f91662.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Chainsaw Man VOL. 1 IVREA",
+        "description": "Manga Shonen",
+        "category":"shonen",
+        "price": "1800",
+        "quantity":"12",
+        "pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/122d65ffc65ab1e742aabf368d2e45b6ace1dec7a573964ec97a0f6ea87252cd91662.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Kaguya Sama Love is War VOL. 1 PANINI",
+        "description": "Manga Seinen",
+        "category":"seinen",
+        "price": "1900",
+        "quantity":"7",
+        "pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/062dc3ab1f99c7d0c4c472270b214377dbb2a5b337ef2ec9a6c925a079e6b46691662.jpeg"
+    },
+    {
+        "id": 5,
+        "title": "Banana Fish VOL. 1 PANINI",
+        "description": "Manga Shonen",
+        "category":"shonen",
+        "price": "2800",
+        "quantity":"4",
+        "pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/23c0051d930dd981578122e54d85e269365ce44f9b732e5642a4eaab1a43f9db91662.png"
+    },
+    {
+        "id": 6,
+        "title": "Jujutsu Kaisen VOL. 1 PANINI",
+        "description": "Manga Seinen",
+        "category":"seinen",
+        "price": "2100",
+        "quantity":"2",
+        "pictureUrl": "https://d22fxaf9t8d39k.cloudfront.net/3b964e38380c2140fd5f0fb3f6647043ab7685e710dae7a88c65af9a05d5b29d91662.jpeg"
+    }
+]

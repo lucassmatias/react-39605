@@ -1,0 +1,36 @@
+.itemCounter{
+    color: #626262;
+}
+.itemCountContainer{
+    background-color: #EEEEEE;
+    width: 13rem;
+    height: 5rem;
+    padding: 10px;
+    border-color: black;
+    border-radius: 30px;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    padding-bottom: 5px;
+}
+.counterDiv{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+}
+.buttonDiv button{
+    height: 30px;
+    width: 35px;
+    border-radius: 20px;
+}
+.buttonComprarDiv{
+    display: flex;
+    justify-content: center;
+}
+.buttonComprarDiv button{
+    border-radius: 20px;
+    height: 30px;
+    width:fit-content;
+}
