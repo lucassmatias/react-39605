@@ -1,0 +1,7 @@
+.cartContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #FFA559;
+    padding: 2rem;
+    height: 100vh;
+}

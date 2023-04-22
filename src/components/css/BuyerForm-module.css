@@ -1,0 +1,18 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+.formContainer{
+    width: 25%;
+}
+input{
+    border-radius: 10px;
+    margin: 3% 0;
+}
+.buyerButton{
+    border-radius: 20px;
+    margin: 5% 0 0 0;
+}
+.addMessage{
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+.itemCart{
+    background-color: #FFE6C7;
+    display: flex;
+    width: auto;
+    height: 12.5rem;
+    border: 1px solid black;
+}
+.itemContentRow{
+    display: flex;
+    flex-direction:column;
+}
+.closeImg{
+    width: 40px;
+    height: 40px;
+}
+.clear-item-icon{
+    width: 40px;
+    height: 40px;
+}
+.itemContentColumn{
+    width: 15%;
+}
+.itemsImg{
+    object-fit: cover;
+}
+.itemContentColumn2{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+}
+.itemContentColumn3{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.title{
+    font-size: larger;
+    font-weight: bold;
+    width: 15rem;
+}
+.price{
+    margin-top: 1rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.itemCart:hover{
+    background-color: #FF6000;
+    transition-duration: 0.5s;
+}

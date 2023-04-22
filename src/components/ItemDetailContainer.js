@@ -1,23 +1,24 @@
 import React, {useState, useEffect} from "react";
 import ItemDetail from "./ItemDetail";
-import ProductArray from "./json/mangas.json";
 import { useParams } from "react-router-dom";
+import { doc, getDoc} from "firebase/firestore";
+import db from "./conexion/conexion";
+import { ClipLoader } from "react-spinners";
 export default function ItemDetailContainer(){
-    const[manga, setManga] = useState({});
-    const{id} = useParams();
+    const [manga, setManga] = useState({});
+    const {id} = useParams();
+    const [loading, setLoading] = useState(true)
     useEffect(() => {
-        const promise = new Promise((resolve) => {
-            setTimeout(() => {
-                resolve(ProductArray.find(item => item.id  === parseInt(id)))
-            }, 2000);
-        });
-        promise.then((data) => {
-            setManga(data);
-        })
+        const aux = doc(db, "items", `${id}`);
+        getDoc(aux).then((snapshot) => {
+            if(snapshot.exists()){
+                setManga({id: snapshot.id, ...snapshot.data()});    
+            }
+        }).catch((error) => console.log(error)).finally(() => setLoading(false))
     }, [id])
     return(
         <>
-        <ItemDetail item={manga}/>
+            {loading ? <ClipLoader loading={loading} color={"red"} size={50} className="container"/> : <ItemDetail item={manga}/>}
         </>
     )
 }

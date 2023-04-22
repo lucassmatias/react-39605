@@ -1,13 +1,14 @@
 .itemCounter{
-    color: #626262;
+    color: white;
 }
 .itemCountContainer{
-    background-color: #EEEEEE;
+    background-color: #454545;
     width: 13rem;
     height: 5rem;
     padding: 10px;
     border-color: black;
     border-radius: 30px;
+    color: white;
 }
 .buttonDiv{
     display: flex;

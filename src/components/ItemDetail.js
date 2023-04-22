@@ -1,5 +1,5 @@
 import ItemCount from "./ItemCount.js";
-import "./ItemDetail-module.css";
+import "./css/ItemDetail-module.css";
 export default function ItemDetail({item}){
     return(
         <>

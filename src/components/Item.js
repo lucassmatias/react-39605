@@ -1,7 +1,7 @@
 import React from "react";
-import "./Item-module.css";
+import "./css/Item-module.css";
 import { Link } from "react-router-dom";
-import "./LinkFont-module.css"
+import "./css/LinkFont-module.css"
 export default function Item({item}){
     return(
         <>
@@ -16,7 +16,6 @@ export default function Item({item}){
                     </span>             
                 </div>
             </div>   
-            <hr/>
             <div className="itemRow redBlock">
                 <div className="itemColumn">
                     <span className="itemCategory itemValue">

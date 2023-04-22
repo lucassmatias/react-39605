@@ -1,13 +1,18 @@
-import React from "react";
+import React, {useContext} from "react";
 import { BiCart } from "react-icons/bi";
-import "./CartWidget-module.css";
-
+import "./css/CartWidget-module.css";
+import { Link } from "react-router-dom";
+import { CartContext } from "./context/CartContext";
+import "./css/LinkFont-module.css"
 function Carrito(){   
+    const {itemQuantity} = useContext(CartContext);
     return( 
-    <div>
-        <BiCart className="carrito"/>
-        1
-    </div>
+        <Link to="/cart">
+            <div className="linkFont">
+                <BiCart className="carrito"/>
+                {itemQuantity()}
+            </div>
+        </Link>
     )
 }
 

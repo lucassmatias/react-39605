@@ -1,0 +1,37 @@
+.finish div{
+    padding: 2% 8%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.finish{
+    display: flex;
+    align-items: center;
+    background-color: #FF6000;
+    border-radius: 20px;
+}
+.clear-icon{
+    width: 50px;
+    height: 50px;
+}
+.finish div span{
+    font-weight: bold;
+}
+.totalSpan{
+    font-weight: bold;
+    font-size:xx-large;
+}
+.cart{  
+    padding-right: 5%;
+    min-width: 70%;
+}
+.content{   
+    height: 80%;
+    overflow-y: scroll;
+}
+.span{
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 3rem;
+}

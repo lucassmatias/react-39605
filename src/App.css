@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #454545;
+  min-height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .App-logo {
@@ -36,3 +39,5 @@
     transform: rotate(360deg);
   }
 }
+
+

@@ -1,13 +1,12 @@
-.containerRow{
-    padding-top: 1rem;
-    gap: 1rem;
-}
 .flex{
     display: flex;
+    gap: 5rem;
 }
 .itemDetailContainer{
     padding-top: 5rem;
     justify-content: center;
+    background-color: #FFA559;
+    height: 100vh;
 }
 .containerRow span{
     font-style: italic;
@@ -22,4 +21,5 @@
 }
 .detailImg{
     max-height: 30rem;
+    border: solid black;
 }
